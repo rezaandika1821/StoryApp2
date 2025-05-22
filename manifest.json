@@ -1,0 +1,22 @@
+{
+  "name": "Story App 2",
+  "short_name": "StoryApp2",
+  "description": "Aplikasi berbagi cerita dengan foto dan lokasi.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f0f4f8",
+  "theme_color": "#5b81ad",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
