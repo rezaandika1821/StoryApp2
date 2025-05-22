@@ -1,0 +1,12 @@
+// sesudah (class)
+import LoginView from '../../views/LoginView';
+import LoginPresenter from '../../presenters/LoginPresenter';
+
+export default class LoginPage {
+  async render() {
+    return LoginView.getTemplate();
+  }
+  async afterRender() {
+    LoginPresenter.init();
+  }
+}
