@@ -9,12 +9,12 @@
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/images/logo.png",
+      "src": "images/logo.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/images/logo.png",
+      "src": "images/logo.png",
       "sizes": "512x512",
       "type": "image/png"
     }
@@ -25,18 +25,18 @@
       "short_name": "Tambah Cerita",
       "description": "Langsung ke halaman tambah cerita baru",
       "url": "/#/add",
-      "icons": [{ "src": "/images/logo.png", "sizes": "192x192", "type": "image/png" }]
+      "icons": [{ "src": "images/logo.png", "sizes": "192x192", "type": "image/png" }]
     }
   ],
   "screenshots": [
     {
-      "src": "/images/screenshot-desktop.png",
+      "src": "images/screenshot-desktop.png",
       "sizes": "1280x800",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
-      "src": "/images/screenshot-mobile.png",
+      "src": "images/screenshot-mobile.png",
       "sizes": "375x667",
       "type": "image/png",
       "form_factor": "narrow"
