@@ -1,0 +1,1 @@
+import RegisterView from"../../views/RegisterView.js";import RegisterPresenter from"../../presenters/RegisterPresenter.js";export default class RegisterPage{constructor(){this.view=new RegisterView}async render(){return this.view.getTemplate()}async afterRender(){new RegisterPresenter({view:this.view}).init()}}

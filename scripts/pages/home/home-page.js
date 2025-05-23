@@ -1,0 +1,1 @@
+import HomePresenter from"../../presenters/HomePresenter";import HomeView from"../../views/HomeView";export default class HomePage{async render(){return localStorage.getItem("accessToken")?HomeView.getTemplate():(window.location.hash="/login","")}async afterRender(){await HomePresenter.init()}}
